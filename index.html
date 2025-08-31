@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker </h1>
+    <p>Keep track of your daily expenses</p>
+  </header>
+
+  <section class="container">
+    <input type="text" id="expenseName" placeholder="Expense Name">
+    <input type="number" id="expenseAmount" placeholder="Amount">
+    <button onclick="addExpense()">Add Expense</button>
+
+    <h2>Expense List</h2>
+    <ul id="expenseList"></ul>
+
+    <h3>Total: ₹ <span id="total">0</span></h3>
+  </section>
+
+  <footer>
+    <p>Made by HNP</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
